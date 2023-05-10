@@ -1,0 +1,30 @@
+.container-top{
+    display: flex;
+    width: 100%;
+    height: 110vh;
+    text-align: center;
+    background-color: #ffff33;
+}
+
+.top-menu{
+    color: black;
+    position: absolute;
+    right: 1%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.top-title{
+    text-decoration-line: underline;
+}
+
+.texttop-container{
+    font-size: 22px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

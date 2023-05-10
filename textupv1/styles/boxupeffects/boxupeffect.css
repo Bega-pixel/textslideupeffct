@@ -1,0 +1,164 @@
+.container{
+    margin-top: 40%;
+    display: flex;
+    flex-direction: row;
+}
+
+.boxup1 .boxup2 .boxup3 {
+    padding: 20px;
+    margin-left:5%;
+    
+}
+
+.boxup1{
+    color: #ffff33;
+    margin-right: 2%;
+}
+
+.boxup2{
+    color: #ffff33;
+    margin-right: 2%;
+}
+.boxup3{
+    color: #ffff33;
+    margin-right: 2%;
+}
+.boxup4{
+    color: #ffff33;
+    margin-right: 2%;
+}
+
+
+@keyframes slide-up {   
+    from {     
+        transform: translateY(100%);   
+    }    
+    
+    to {     
+        transform: translateY(0%);   
+    } 
+}
+
+@-o-keyframes slide-up {
+    from {     
+        transform: translateY(100%);   
+    }    
+    
+    to {     
+        transform: translateY(0%);   
+    } 
+}   
+    
+@-moz-keyframes slide-up {   
+    from {     
+        transform: translateY(100%);   
+    }    
+    
+    to {     
+        transform: translateY(0%);   
+    } 
+}
+
+
+@media screen and (max-width: 800px) {
+    @keyframes slide-up {   
+        from {     
+            transform: translateY(0%);   
+        }    
+        
+        to {     
+            transform: translateY(0%);   
+        } 
+    }
+    
+    @-o-keyframes slide-up {   
+        from {     
+            transform: translateY(0%);   
+        }    
+        
+        to {     
+            transform: translateY(0%);   
+        } 
+    }
+    
+    @-moz-keyframes slide-up {   
+        from {     
+            transform: translateY(0%);   
+        }    
+        
+        to {     
+            transform: translateY(0%);   
+        } 
+    }
+}
+
+
+
+.section1{
+    height: 100vh;
+    width: 100%;
+}
+
+@keyframes slide-down {   
+    from {     
+        transform: translateY(0%);   
+    }    
+    
+    to {     
+        transform: translateY(100%);   
+    } 
+}
+
+@-o-keyframes slide-down {   
+    from {     
+        transform: translateY(0%);   
+    }    
+    
+    to {     
+        transform: translateY(100%);   
+    } 
+}
+
+@-moz-keyframes slide-down {   
+    from {     
+        transform: translateY(0%);   
+    }    
+    
+    to {     
+        transform: translateY(100%);   
+    } 
+}
+
+@media screen and (max-width: 800px) {
+    @keyframes slide-down {   
+        from {     
+            transform: translateY(0%);   
+        }    
+        
+        to {     
+            transform: translateY(0%);   
+        } 
+    }
+    
+    @-o-keyframes slide-down {   
+        from {     
+            transform: translateY(0%);   
+        }    
+        
+        to {     
+            transform: translateY(0%);   
+        } 
+    }
+    
+    @-moz-keyframes slide-down {   
+        from {     
+            transform: translateY(0%);   
+        }    
+        
+        to {     
+            transform: translateY(0%);   
+        } 
+    }
+}
+
+
